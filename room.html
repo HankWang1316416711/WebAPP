@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="style/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <a class="mui-icon-refresh mui-icon  mui-icon-right-nav mui-pull-right"></a>
+		    <h1 class="mui-title">空课室查询</h1>
+		</header>
+		<div class="mui-content" style="background-color:#BAF4E8;height:620px;">
+			<div class="content-middle" style="text-align: center;margin-top:30px;">
+				<img src="images/qq.png"/>
+				<div class="">
+					<form action="room_detail.html"  class="mui-input-group" style="margin:0 20px;border:0 none;border-radius:10px;">
+					    <div class="mui-input-row">
+					        <label>星期</label>
+							<select name="">
+								<option value="">一</option>
+								<option value="">二</option>
+								<option value="">三</option>
+								<option value="">四</option>
+								<option value="">五</option>
+							</select>
+					    </div>
+					    <div class="mui-input-row">
+					    	<label for="">节数</label>
+					    	<select name="">
+					    		<option value="">1-2节</option>
+					    		<option value="">3-4节</option>
+					    		<option value="">5-6节</option>
+					    		<option value="">7-8节</option>
+					    		<option value="">9-11节</option>
+					    	</select>
+					    </div>
+					    <button style="display:block;background-color:pink;text-align: center;margin: 0 auto;padding:10 140px;">一键查询</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init({
+				gestureConfig:{
+					tap:true
+				}
+			});
+			/*document.getElementsByTagName('button')[0].addEventListener('tap',function(){
+				mui.openWindow({
+					url:'room_detail.html',
+					id:'room_detail.html'
+				})
+			});*/
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="style/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			p{
+				margin:10px 0px 10px 14px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <h1 class="mui-title">设置</h1>
+		</header>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item" href="home.html">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item" href="message.html">
+		        <span class="mui-icon mui-icon-info"></span>
+		        <span class="mui-tab-label">信息</span>
+		    </a>
+		    <a class="mui-tab-item" href="me.html">
+		        <span class="mui-icon mui-icon-person"></span>
+		        <span class="mui-tab-label">我</span>
+		    </a>
+		    <a class="mui-tab-item mui-active" href="set.html">
+		        <span class="mui-icon mui-icon-gear"></span>
+		        <span class="mui-tab-label">设置</span>
+		    </a>
+		</nav>
+		<div class="mui-content">
+		    <p>账号设置</p>
+		    <ul class="mui-table-view">
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="personal_info.html">
+		                    个人设置
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                  校园徽章
+		                </a>
+		            </li>
+		        </ul>
+		    <p>系统设置</p>
+		    <ul class="mui-table-view">
+		            <li class="mui-table-view-cell">
+						字体设置
+		            </li>
+		            <li class="mui-table-view-cell">
+		                                                    信息通知
+                          <div class="mui-switch mui-switch-mini mui-active">
+                            <div class="mui-switch-handle"></div>
+                          </div>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="scan.html">
+		                    	扫一扫
+		                </a>
+		            </li>
+		    </ul>
+		    <p>其他设置</p>
+		    <ul class="mui-table-view">
+		            <li class="mui-table-view-cell update">
+		                <a class="mui-navigate-right">
+		                    	检查更新
+		                </a>
+		            </li>
+		             <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="advice.html">
+		                    	意见反馈
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="help.html" >
+		                    	关于和帮助
+		                </a>
+		            </li>
+		             <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="login.html" >
+		                    	退出当前账号
+		                </a>
+		            </li>
+		        </ul>
+		        
+		       
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init({
+				gestureConfig:{
+					tap:true
+				}
+			});
+			document.getElementsByClassName('update')[0].addEventListener('tap',function(){
+				mui.toast('主赢，已经是最新版本啦')
+			});
+			mui('body').on('tap','a',function(){
+				document.location.href = this.href;
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="style/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <h1 class="mui-title">查询信息</h1>
+		</header>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item Index" href="home.html">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item mui-active  Message" href="message.html">
+		        <span class="mui-icon mui-icon-info"></span>
+		        <span class="mui-tab-label">信息</span>
+		    </a>
+		    <a class="mui-tab-item Me" href="me.html">
+		        <span class="mui-icon mui-icon-person"></span>
+		        <span class="mui-tab-label">我</span>
+		    </a>
+		    <a class="mui-tab-item Sett">
+		        <span class="mui-icon mui-icon-gear"></span>
+		        <span class="mui-tab-label">设置</span>
+		    </a>
+		</nav>
+		<div class="mui-content">
+		    <a href="test.html" style="display: block;margin:250px 0 0 130px;font-size: 25px;">测试模块</a>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init({
+				gestureConfig:{
+					tap:true
+				}
+			});
+			mui('body').on('tap','a',function(){
+				document.location.href = this.href;
+			});
+		</script>
+	</body>
+
+</html>

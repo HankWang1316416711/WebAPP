@@ -1,0 +1,27 @@
+@charset "utf8";
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+table th {
+  height: 3.0em;
+  font-weight: 600;
+  color: white;
+  font-family: "微软雅黑";
+  background-color: #DE2C29;
+}
+table td {
+  text-align: center;
+  height: 5.5em;
+  font-size: 14px;
+}
+.note {
+  margin: 10px 0px 0px 10px;
+  color: #DE2C29;
+  font-size: 16px;
+  font-weight: 600;
+}
+.note_content {
+  margin: 10px 0px 0px 10px;
+  color: gray;
+}

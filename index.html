@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="style/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- 主界面菜单同时移动 -->
+		    <!-- 侧滑导航根容器 -->
+		    <div class="mui-off-canvas-wrap mui-draggable">
+		        <!-- 主页面容器 -->
+		        <div class="mui-inner-wrap">
+		            <!-- 菜单容器 -->
+		            <aside class="mui-off-canvas-left" id="offCanvasSide">
+		                <div class="mui-scroll-wrapper" style="background-color: white;">
+		                    <div class="mui-scroll">
+		                        <!-- 菜单具体展示内容 -->
+		                        <div class="panel">
+		                        	<div class="panel-top">                        		
+										<img src="images/qq.png"/ width="60px" height="60px">
+				                        <span style="color:white;font-size: 20px;font-family: '微软雅黑';" >惠州大学</span>
+		                        	</div>
+		                        	<div class="panel-bottom">
+		                        		<ul class="mui-table-view">
+		                        		        <li class="mui-table-view-cell">
+		                        		            <a class="mui-navigate-right">
+		                        		                                                     惠大		                        		            
+		                        		            </a>
+		                        		        </li>
+		                        		        <li class="mui-table-view-cell">
+		                        		            <a class="mui-navigate-right">
+		                        		                 Item 2
+		                        		            </a>
+		                        		        </li>
+		                        		        <li class="mui-table-view-cell">
+		                        		            <a class="mui-navigate-right">
+		                        		                 Item 3
+		                        		            </a>
+		                        		        </li>
+		                        		    </ul>
+		                        	</div>
+		                        </div>
+		                        
+		                    </div>
+		                </div>
+		            </aside>
+		            <!-- 主页面标题 -->
+		            <header class="mui-bar mui-bar-nav">
+		                <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+		                <h1 class="mui-title">校园生活</h1>
+		            </header>
+		            <nav class="mui-bar mui-bar-tab">
+		    		    <a class="mui-tab-item mui-active">
+		    		        <span class="mui-icon mui-icon-home"></span>
+		    		        <span class="mui-tab-label">首页</span>
+		    		    </a>
+		    		    <a class="mui-tab-item">
+		    		        <span class="mui-icon mui-icon-phone"></span>
+		    		        <span class="mui-tab-label">信息</span>
+		    		    </a>
+		    		    <a class="mui-tab-item">
+		    		        <span class="mui-icon mui-icon-email"></span>
+		    		        <span class="mui-tab-label">我</span>
+		    		    </a>
+		    		    <a class="mui-tab-item">
+		    		        <span class="mui-icon mui-icon-gear"></span>
+		    		        <span class="mui-tab-label">设置</span>
+		    		    </a>
+		    		</nav>
+		            <!-- 主页面内容容器 -->
+		            <div class="mui-content mui-scroll-wrapper">
+		                <div class="mui-scroll" style="background-color: deeppink; height:200px;">
+		                    <!-- 主界面具体展示内容 -->
+		                    <div class="content-top">
+		                    	<div class="mui-slider">
+		                    		<div class="mui-slider-group mui-slider-loop">
+		                    			<div class="mui-slider-item mui-slider-item-duplicate">
+		                    				<a href="#">
+		                    					<img src="images/user-photo.png" alt="" / style="width:60%;">
+		                    				</a>
+		                    			</div>
+		                    			<div class="mui-slider-item">
+		                    				<a href="">
+		                    					<img src="images/weixin.png"/ style="width:60%;">
+		                    				</a>
+		                    			</div>
+		                    			<div class="mui-slider-item">
+		                    				<a href="#">
+		                    					<img src="images/qq.png" /style="width:60%;">
+		                    				</a>
+		                    			</div>
+		                    			<div class="mui-slider-item">
+		                    				<a href="#">
+		                    					<img src="images/user-photo.png"/ style="width:60%;">
+		                    				</a>
+		                    			</div>
+		                    			<div class="mui-slider-item mui-slider-item-duplicate">
+		                    				<a href="">
+		                    					<img src="images/weixin.png"/ style="width:60%;">
+		                    				</a>
+		                    			</div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                    
+							<!--这里是九宫格区域-->	             
+		                    <div class="content-bottom" style="margin-top: -40px;">
+		                    	<ul class="mui-table-view mui-grid-view mui-grid-9">
+		                    	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		                    	    <a href="#">
+		                    	        <span class="mui-icon mui-icon-home"></span>
+		                    	        <div class="mui-media-body">校园新闻</div>
+		                    	    </a>
+		                    	</li>
+		                    	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		                    	    <a href="#">
+		                    	        <span class="mui-icon mui-icon-email"><span class="mui-badge mui-badge-red">5</span></span>
+		                    	        <div class="mui-media-body">校园邮箱</div>
+		                    	    </a>
+		                    	</li>
+		                    	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		                    	    <a href="#">
+		                    	        <span class="mui-icon mui-icon-chatbubble"></span>
+		                    	        <div class="mui-media-body">吐槽神</div>
+		                    	    </a>
+		                    	</li>
+		                    	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		                    	    <a href="#">
+		                    	        <span class="mui-icon mui-icon-location"></span>
+		                    	        <div class="mui-media-body">我的位置</div>
+		                    	    </a>
+		                    	</li>
+		                    	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		                    	    <a href="#">
+		                    	        <span class="mui-icon mui-icon-search"></span>
+		                    	        <div class="mui-media-body">Search</div>
+		                    	    </a>
+		                    	</li>
+		                    	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		                    	    <a href="#">
+		                    	        <span class="mui-icon mui-icon-phone"></span>
+		                    	        <div class="mui-media-body">附近小吃</div>
+		                    	    </a>
+		                    	</li>
+		                    	<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		                    	    <a href="#">
+		                    	        <span class="mui-icon mui-icon-phone"></span>
+		                    	        <div class="mui-media-body">费用查询</div>
+		                    	    </a>
+		                    	</li>
+		                    	    </ul>
+		                    	
+		                    </div>
+		                </div>
+		            </div>
+		       	 <div class="mui-off-canvas-backdrop"></div>
+		        </div>
+		    </div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>

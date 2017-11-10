@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="style/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding:0px;
+			}
+		</style>
+	</head>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">我的位置</h1>
+		</header>
+		<div class="mui-content">
+			<div id="map">
+				地图加载中。。。。。。
+			</div>
+		</div>
+		<script>
+			document.addEventListener('plusready',function(){
+				var winHeight = document.documentElement.clientHeight;
+				document.getElementById('map').style.height = winHeight + 'px';
+				var map = new plus.maps.Map('map');
+				//设置缩放级别
+				map.setZoom(18);
+				//显示用户的信息
+				map.showUserLocation(true);
+				//获取用户的个人信息
+				map.getUserLocation(function(state,point){
+					center = new plus.maps.Point(point.longitude,point.latitude);
+					//设置用户中心店
+					map.setCenter(center);
+				});
+			});
+		</script>
+		<script src="js/mui.min.js"></script>
+	</body>
+
+</html>

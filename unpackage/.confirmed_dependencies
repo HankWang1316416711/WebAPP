@@ -1,0 +1,406 @@
+{
+	"index.html": {
+		"resources": [
+			"style/mui.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"images/weixin.png",
+			"images/qq.png",
+			"images/user-photo.png"
+		],
+		"refer": []
+	},
+	"location.html": {
+		"resources": [
+			"style/mui.min.css",
+			"js/mui.min.js",
+			"home.html"
+		],
+		"refer": [
+			"home.html"
+		]
+	},
+	"home.html": {
+		"resources": [
+			"style/mui.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"images/weixin.png",
+			"images/qq.png",
+			"images/user-photo.png",
+			"img/pic2.jpg",
+			"img/pic3.jpg",
+			"img/pic1.jpg",
+			"img/pic4.jpg",
+			"message.html",
+			"near.html",
+			"collegeNews.html",
+			"location.html",
+			"set.html",
+			"me.html",
+			"login.html",
+			"js/home.js"
+		],
+		"refer": [
+			"collegeNews.html",
+			"location.html",
+			"library.html",
+			"near.html",
+			"money.html",
+			"complain.html",
+			"message.html",
+			"lost.html",
+			"set.html",
+			"me.html",
+			"login.html"
+		]
+	},
+	"collegeNews.html": {
+		"resources": [
+			"images/qq.png/",
+			"images/sinaweibo.png",
+			"style/mui.min.css",
+			"collegeNews_detail.html",
+			"images/weixin.png",
+			"images/user-photo.png",
+			"home.html"
+		],
+		"refer": [
+			"collegeNews_detail.html",
+			"home.html"
+		]
+	},
+	"library.html": {
+		"resources": [
+			"style/mui.min.css",
+			"library_news.html"
+		],
+		"refer": [
+			"library_news.html"
+		]
+	},
+	"library_news.html": {
+		"resources": [
+			"style/mui.min.css",
+			"library.html"
+		],
+		"refer": [
+			"library.html"
+		]
+	},
+	"money.html": {
+		"resources": [
+			"style/mui.min.css"
+		],
+		"refer": []
+	},
+	"collegeNews_detail.html": {
+		"resources": [
+			"images/sinaweibo.png",
+			"style/mui.min.css",
+			"collegeNews.html",
+			"img/bg.jpg"
+		],
+		"refer": [
+			"collegeNews.html"
+		]
+	},
+	"complain.html": {
+		"resources": [
+			"style/mui.min.css",
+			"comment_detail.html"
+		],
+		"refer": [
+			"comment_detail.html"
+		]
+	},
+	"near.html": {
+		"resources": [
+			"style/mui.min.css",
+			"near_detail.html",
+			"images/weixin.png",
+			"images/user-photo.png",
+			"home.html"
+		],
+		"refer": [
+			"near_detail.html",
+			"home.html"
+		]
+	},
+	"near_detail.html": {
+		"resources": [
+			"near.html",
+			"style/mui.min.css",
+			"img/bgi.jpg",
+			"img/bg.jpg"
+		],
+		"refer": [
+			"near.html"
+		]
+	},
+	"message.html": {
+		"resources": [
+			"style/mui.min.css",
+			"home.html",
+			"me.html",
+			"set.html",
+			"test.html"
+		],
+		"refer": [
+			"home.html",
+			"me.html",
+			"set.html",
+			"test.html"
+		]
+	},
+	"release.html": {
+		"resources": [
+			"style/mui.min.css",
+			"lost.html"
+		],
+		"refer": [
+			"lost.html"
+		]
+	},
+	"lost.html": {
+		"resources": [
+			"release.html",
+			"style/mui.min.css"
+		],
+		"refer": [
+			"release.html"
+		]
+	},
+	"comment_detail.html": {
+		"resources": [
+			"style/mui.min.css",
+			"images/user-photo.png",
+			"complain.html"
+		],
+		"refer": [
+			"complain.html"
+		]
+	},
+	"me.html": {
+		"resources": [
+			"message.html",
+			"set.html",
+			"style/mui.min.css",
+			"style/less/me.css",
+			"img/pic.jpg",
+			"home.html",
+			"img/bgi.jpg",
+			"img/icon/iconfont.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"grade.html",
+			"calendar.html",
+			"room.html",
+			"courses.html",
+			"phoneNumber.html"
+		],
+		"refer": [
+			"message.html",
+			"set.html",
+			"home.html",
+			"grade.html",
+			"calendar.html",
+			"room.html",
+			"courses.html",
+			"phoneNumber.html"
+		]
+	},
+	"set.html": {
+		"resources": [
+			"me.html",
+			"style/mui.min.css",
+			"message.html",
+			"home.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"personal_info.html",
+			"advice.html",
+			"help.html",
+			"scan.html",
+			"login.html"
+		],
+		"refer": [
+			"me.html",
+			"message.html",
+			"home.html",
+			"personal_info.html",
+			"advice.html",
+			"help.html",
+			"scan.html",
+			"login.html"
+		]
+	},
+	"grade.html": {
+		"resources": [
+			"style/mui.min.css",
+			"me.html",
+			"grade.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"grade_detail.html"
+		],
+		"refer": [
+			"me.html",
+			"grade.html",
+			"grade_detail.html"
+		]
+	},
+	"grade_detail.html": {
+		"resources": [
+			"grade.html",
+			"img/icon/iconfont.css",
+			"style/mui.min.css"
+		],
+		"refer": [
+			"grade.html"
+		]
+	},
+	"calendar.html": {
+		"resources": [
+			"style/mui.min.css",
+			"img/calendar.png",
+			"me.html"
+		],
+		"refer": [
+			"me.html"
+		]
+	},
+	"room.html": {
+		"resources": [
+			"style/mui.min.css",
+			"room.html",
+			"me.html",
+			"img/room_by.jpg",
+			"images/weixin.png",
+			"room_detail.html",
+			"images/qq.png"
+		],
+		"refer": [
+			"room.html",
+			"me.html",
+			"room_detail.html"
+		]
+	},
+	"room_detail.html": {
+		"resources": [
+			"style/mui.min.css",
+			"room.html"
+		],
+		"refer": [
+			"room.html"
+		]
+	},
+	"courses.html": {
+		"resources": [
+			"style/mui.min.css",
+			"me.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"images/qq.png",
+			"course_detail.html"
+		],
+		"refer": [
+			"me.html",
+			"course_detail.html"
+		]
+	},
+	"course_detail.html": {
+		"resources": [
+			"courses.html",
+			"style/less/course_detail.css",
+			"style/mui.min.css"
+		],
+		"refer": [
+			"courses.html"
+		]
+	},
+	"phoneNumber.html": {
+		"resources": [
+			"style/mui.min.css",
+			"me.html"
+		],
+		"refer": [
+			"me.html"
+		]
+	},
+	"personal_info.html": {
+		"resources": [
+			"style/mui.min.css",
+			"img/icon/iconfont.css",
+			"set.html"
+		],
+		"refer": [
+			"set.html"
+		]
+	},
+	"advice.html": {
+		"resources": [
+			"css/feedback.css",
+			"js/feedback.js",
+			"set.html",
+			"style/mui.min.css"
+		],
+		"refer": [
+			"set.html"
+		]
+	},
+	"help.html": {
+		"resources": [
+			"set.html",
+			"style/mui.min.css"
+		],
+		"refer": [
+			"set.html"
+		]
+	},
+	"test.html": {
+		"resources": [
+			"message.html",
+			"style/mui.min.css"
+		],
+		"refer": [
+			"message.html"
+		]
+	},
+	"scan.html": {
+		"resources": [
+			"set.html",
+			"style/mui.min.css"
+		],
+		"refer": [
+			"set.html"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"css/login.css",
+			"img/pic.jpg",
+			"img/bg.jpg",
+			"css/reset.css",
+			"home.html",
+			"js/app.js",
+			"style/mui.min.css",
+			"js/mui.enterfocus.js",
+			"js/mui.min.js",
+			"images/sinaweibo.png",
+			"images/weixin.png",
+			"images/qq.png",
+			"fonts/mui.ttf"
+		],
+		"refer": [
+			"home.html",
+			"main.html",
+			"forget_password.html"
+		]
+	},
+	"forget_password.html": {
+		"resources": [
+			"css/style.css"
+		]
+	}
+}

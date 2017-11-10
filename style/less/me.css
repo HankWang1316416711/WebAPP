@@ -1,0 +1,50 @@
+@charset "utf8";
+.header-content {
+  width: 100%;
+  height: 250px;
+  background-image: url(../../img/bgi.jpg);
+}
+.header-content .top-img {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 50px;
+  position: relative;
+}
+.header-content .top-img i {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.header-content .top-img img {
+  width: 20%;
+  border: 0 none;
+  border-radius: 120px;
+}
+.header-content p {
+  text-align: center;
+  margin: 0 auto;
+  color: #007AFF;
+  font-size: 16px;
+  font-family: arial;
+  margin-top: 10px;
+}
+.header-content .bottom-a {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.header-content .bottom-a span {
+  margin: 0 5px;
+}
+.header-content .bottom-a a {
+  font-size: 14px;
+}
+.mui-content li {
+  border: 0 none;
+}
+.mui-content .iconfont {
+  font-size: 20px;
+  color: deeppink;
+  margin-right: 5px;
+}

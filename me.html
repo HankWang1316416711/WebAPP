@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="style/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="style/less/me.css"/>
+		<link rel="stylesheet" type="text/css" href="img/icon/iconfont.css"/>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-content">
+				<div class="content-top">
+					<div class="top-img">
+						<a href="set.html">							
+							<i class="mui-icon  mui-icon-gear"></i>
+						</a>
+						<a href="#">
+							<img src="img/pic.jpg"/>
+						</a>
+					</div>
+					<p>HankWang</p>
+					<div class="bottom-a">
+						<a href="#">积分:75</a>
+						<span style="color:white;">|</span>
+						<a href="#">今日签到</a>
+					</div>
+					
+				</div>
+			</div>
+		</header>
+		<div class="mui-content">
+		    <hr />
+		    <ul class="mui-table-view">
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="grade.html">
+		                	<span class="iconfont icon-chengjidan"></span>
+		                    	我的成绩
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="room.html">
+		                     <span class="icon-jiaoshipeizhi iconfont" style="color:green"></span>
+		                        	空课室
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="courses.html">
+		                    <span class="iconfont icon-kebiao" style="color:deepskyblue"></span> 
+		                             	我的课表
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell Calendar">
+		                <a class="mui-navigate-right" href="calendar.html">
+		                    <span class="iconfont icon-xiaozhaorili" style="color:orangered"></span> 
+		                             	我的校历
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right" href="phoneNumber.html">
+		                    <span class="iconfont icon-kebiaochaxun" style="color:deeppink;"></span> 
+		                             	教师联系方式
+		                </a>
+		            </li>
+		            
+		        </ul>
+		 
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item" href="home.html">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item" href="message.html">
+		        <span class="mui-icon mui-icon-info"></span>
+		        <span class="mui-tab-label">信息</span>
+		    </a>
+		    <a class="mui-tab-item mui-active" href="me.html">
+		        <span class="mui-icon mui-icon-person"></span>
+		        <span class="mui-tab-label">我</span>
+		    </a>
+		    <a class="mui-tab-item" href="set.html">
+		        <span class="mui-icon mui-icon-gear"></span>
+		        <span class="mui-tab-label">设置</span>
+		    </a>
+		</nav>
+		<div class="mui-content">
+		    
+		    
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init({
+				gestureConfig:{
+					tap:true
+				}
+			});
+			mui('body').on('tap','a',function(){
+				document.location.href = this.href;
+			});
+		</script>
+	</body>
+
+</html>

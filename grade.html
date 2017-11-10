@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="style/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">我的成绩</h1>
+		    <button class="mui-pull-right mui-icon mui-icon-right-nav" style="padding:4px;margin-top:8px;margin-right:2px;font-size:18px;">重置</button>
+		</header>
+		<div class="mui-content">
+			<div class="grade_content-top">		
+				<form class="mui-input-group" action="grade_detail.html">
+				    <div class="mui-input-row">
+				        <label>学年</label>
+						<select name="years">
+							<option value="">2010</option>
+							<option value="">2011</option>
+							<option value="">2011</option>
+							<option value="">2011</option>
+							<option value="">2011</option>
+							<option value="">2011</option>
+							<option value="">2011</option>
+							<option value="">2012</option>						
+							<option value="">2013</option>
+							<option value="">2014</option>
+							<option value="">2015</option>
+							<option value="">2016</option>
+							<option value="">2017</option>
+							<option value="">2018</option>	
+						</select>
+				    </div>
+				    <div class="mui-input-row">
+				    	<label for="">学期</label>
+				    	<select name="team">
+				    		<option value="">上</option>
+				    		<option value="">下</option>
+				    	</select>
+				    </div>
+				    <div class="mui-input-row">
+				    	<label for="">系别</label>
+				    	<select name="major">
+				    		<option value="">计算机系</option>
+				    		<option value="">经管系</option>
+				    		<option value="">生科系</option>
+				    		<option value="">外语系</option>
+				    		<option value="">数学系</option>
+				    		<option value="">美术系</option>
+				    		<option value="">音乐系</option>
+				    		<option value="">化工系</option>
+				    		<option value="">体育系</option>
+				    		<option value="">电子系</option>
+				    	</select>
+				    </div>
+				    <div class="mui-input-row">
+				    	<!--在这里我的设想是：
+				    		班级是根据系别来显示的。
+				    		当显示为计算机系时，对应的班级就把本系所有的班级列表显示出来
+				    		当显示为经管系时，对应的显示出审计，等等一系列专业班级即可
+				    	-->
+				    	<label for="">班级</label>
+				    	<select name="classes">
+				    		<option value="">计科1班</option>
+				    		<option value="">计科2班</option>
+				    		<option value="">网络1班</option>
+				    		<option value="">网络2班</option>
+				    		<option value="">软件1班</option>
+				    		<option value="">软件2班</option>
+				    	</select>
+				    </div>
+					<button id="search" style="display:block;width: 100%;background-color:darkseagreen;padding:10px;font-size: 16px;">查询</button>
+				</form>
+			</div>
+			<div class="grade_content_bottom">
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init({
+				gestureConfig:{
+					tap:true
+				}
+			});
+
+		</script>
+	</body>
+
+</html>

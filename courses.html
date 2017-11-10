@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="style/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <a class="mui-icon-refresh mui-icon  mui-icon-right-nav mui-pull-right"></a>
+		    <h1 class="mui-title">课表查询</h1>
+		</header>
+		<div class="mui-content" style="background-color:#BAF4E8;height:620px;">
+			<div class="content-middle" style="text-align: center;margin-top:30px;">
+				<img src="images/qq.png"/>
+				<div class="">
+					<form action="course_detail.html"  class="mui-input-group" style="margin:0 20px;border:0 none;border-radius:10px;">
+					    <div class="mui-input-row">
+					        <label>系别</label>
+							<select name="">
+								<option value="">计算机系</option>
+								<option value="">生科系</option>
+								<option value="">外语系</option>
+								<option value="">美术系</option>
+								<option value="">数学系</option>
+								<option value="">音乐系</option>
+							</select>
+					    </div>
+					    <div class="mui-input-row">
+					    	<label for="">级别</label>
+					    	<select name="">
+					    		<option value="">1-2节</option>
+					    		<option value="">3-4节</option>
+					    		<option value="">5-6节</option>
+					    		<option value="">7-8节</option>
+					    		<option value="">9-11节</option>
+					    	</select>
+					    </div>
+					    <div class="mui-input-row">
+					    	<label for="">专业</label>
+					    	<select name="major">
+					    		<option value="">计算机科学与技术</option>
+					    		<option value="">网络工程</option>
+					    		<option value="">软件工程</option>
+					    	</select>
+					    </div>
+					     <div class="mui-input-row">
+					    	<label for="">班级</label>
+					    	<select name="classes">
+					    		<option value="">1班</option>
+					    		<option value="">2班</option>
+					    		<option value="">3班</option>
+					    	</select>
+					    </div>
+					    
+					    <button style="display:block;background-color:pink;text-align: center;margin: 0 auto;padding:10 140px;">一键查询</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init({
+				gestureConfig:{
+					tap:true
+				}
+			});
+		</script>
+	</body>
+
+</html>
